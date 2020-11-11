@@ -15,17 +15,17 @@ import random
 
 parties=['Spdde','CDU','Die_Gruenen','fdp','AfD','dieLinke']
 
-with open ('tweets_Spdde.txt', 'rb') as fp:
+with open ('C:/Users/denni/Desktop/data_vault_2021/Party_Mobilisation_Data/tweets_Spdde.txt', 'rb') as fp:
     tweet_list_spd = pickle.load(fp)
-with open ('tweets_CDU.txt', 'rb') as fp:
+with open ('C:/Users/denni/Desktop/data_vault_2021/Party_Mobilisation_Data/tweets_CDU.txt', 'rb') as fp:
     tweet_list_cdu = pickle.load(fp)
-with open ('tweets_Die_Gruenen.txt', 'rb') as fp:
+with open ('C:/Users/denni/Desktop/data_vault_2021/Party_Mobilisation_Data/tweets_Die_Gruenen.txt', 'rb') as fp:
     tweet_list_die_gruenen = pickle.load(fp)
-with open ('tweets_fdp.txt', 'rb') as fp:
+with open ('C:/Users/denni/Desktop/data_vault_2021/Party_Mobilisation_Data/tweets_fdp.txt', 'rb') as fp:
     tweet_list_fdp = pickle.load(fp)
-with open ('tweets_AfD.txt', 'rb') as fp:
+with open ('C:/Users/denni/Desktop/data_vault_2021/Party_Mobilisation_Data/tweets_AfD.txt', 'rb') as fp:
     tweet_list_afd = pickle.load(fp)
-with open ('tweets_dieLinke.txt', 'rb') as fp:
+with open ('C:/Users/denni/Desktop/data_vault_2021/Party_Mobilisation_Data/tweets_dieLinke.txt', 'rb') as fp:
     tweet_list_linke = pickle.load(fp)
 
 print(len(tweet_list_spd))
